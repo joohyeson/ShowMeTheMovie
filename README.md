@@ -1,6 +1,14 @@
 # ShowMeTheMovie
 ReactJS로 영화 웹 서비스 만들기
 
+## Quick Overview
+
+```sh
+cd show-me-the-movie
+npm start
+```
+
+
 ## Available Scripts
 In the project directory, you can run:
 
