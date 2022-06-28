@@ -20,7 +20,7 @@ function Home() {
     console.log(movies);
     return (<div>{loading ? <h1>Loading..</h1> : <div>{movies.map((movie) => (
     <Movie
-        key={movie.id} medium_cover_image={movie.medium_cover_image} title={movie.title} summary={movie.summary} genres={movie.genres} />
+            key={movie.id} medium_cover_image={movie.medium_cover_image} title={movie.title} summary={movie.summary} genres={movie.genres} id={movie.id} />
     ))}</div>}</div>);
 }
 
