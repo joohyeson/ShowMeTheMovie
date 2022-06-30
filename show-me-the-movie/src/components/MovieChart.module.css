@@ -1,0 +1,76 @@
+.contents {
+    padding: 30px 6px 25px 5px;
+    margin: 0 24.5px;
+}
+
+.chart{
+    
+    margin: 0 0px 0 70px;
+}
+
+.chart img{
+    width: 170px;
+    height: 234px;
+    border-radius: 10px;
+}
+
+.txt{
+    margin: 0 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt button{
+        height: 35px;
+        padding: 0;
+        font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 0 rgb(0 0 0 / 5%);
+}
+
+.txt button span{
+    padding: 4px 32px 4px 15px;
+    padding: 0 10px;
+}
+
+.prev_arrow {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+        
+    background: rgba(255, 255, 255, 0.8);
+
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+
+    position: absolute;
+    left:-4%;
+    top: 40%;
+}
+
+.next_arrow{
+        width: 40px;
+        height: 40px;
+
+        text-align: center;
+
+        background: rgba(255, 255, 255, 0.8);
+
+        border-radius: 50%;
+        box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+
+        position: absolute;
+        left:96%;
+        top: 40%;
+
+    
+    }
+
+    .prev_arrow span,
+    .next_arrow span{
+        line-height: 35px;
+        font-size: 30px;
+    }

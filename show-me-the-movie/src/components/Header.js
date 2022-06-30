@@ -17,6 +17,10 @@ function Category() {
                     <img src={process.env.PUBLIC_URL + '/public_assets/loginJoin.png'}/>
                     <p>회원가입</p>
                 </li>
+                <li>
+                    <img src={process.env.PUBLIC_URL + '/public_assets/loginMember.png'}/>
+                    <p>My Page</p>
+                </li>
             </ul>
         </div>
     )

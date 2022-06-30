@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import Header from "../components/Header"
 import Menu from "../components/Menu"
+import MovieChart from "../components/MovieChart"
 import Movie from '../components/Movie'
 
 function Home() {
@@ -9,9 +10,9 @@ function Home() {
     return (
         <div>
             <Header />
-            <Menu/>
+            <Menu />
+            <MovieChart />
         </div>
-        
     );
     // const [loading, setLoading] = useState(true);
     // const [movies, setMovies] = useState([]);
