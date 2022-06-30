@@ -47,7 +47,7 @@ function MovieChart() {
             
             <div className={style.chart}>
                 <Slider {...settings}>
-                    <MovieChartImage/>
+                    <MovieChartImage />
                     <MovieChartImage />
                     <MovieChartImage />
                     <MovieChartImage />

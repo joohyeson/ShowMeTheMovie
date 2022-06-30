@@ -4,14 +4,69 @@
 }
 
 .chart{
-    
     margin: 0 0px 0 70px;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px 0 9px 0;
+    width: 170px;
 }
 
 .chart img{
     width: 170px;
     height: 234px;
     border-radius: 10px;
+    
+}
+
+.chart_image_and_buttons:hover img{
+    position: relative;
+    filter: brightness(60%);
+}
+
+.chart_button{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        width: 170px;
+        position: absolute;
+        top: 30%;
+    
+}
+.chart_button button{
+    height: 35px;
+    width: 100px;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.chart_button button:hover{
+    filter: brightness(80%);
+    opacity: 0.7;
+}
+
+.chart_info{
+    width: 170px;
+
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+.chart_info span{
+    margin: 0px 20px 0 0;
+}
+
+.chart_info img{
+    width:16px;
+    height: 16px;
 }
 
 .txt{
