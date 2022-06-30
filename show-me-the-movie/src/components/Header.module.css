@@ -1,7 +1,6 @@
 .contents {
     display: flex;
     justify-content: space-between;
-    background-color: gold;
     padding: 30px 6px 25px 5px;
     margin: 0 24.5px;
 }
@@ -9,6 +8,7 @@
 .main_logo {
     width: 117px;
     height: 53px;
+    margin: 0px 0px 0px 50px;
 }
 
 .logo_text{
