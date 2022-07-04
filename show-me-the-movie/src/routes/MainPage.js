@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 import Header from "../components/Header"
 import Menu from "../components/Menu"
-import MovieChart from "../components/MovieChart"
-import Movie from '../components/Movie'
+import MovieChart from "../components/MainPage/MovieChart"
+import Movie from '../components/MainPage/Movie'
 
 function Home() {
 

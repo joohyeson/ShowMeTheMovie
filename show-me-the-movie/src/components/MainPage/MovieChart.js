@@ -1,6 +1,7 @@
 import style from "./MovieChart.module.css"
 import Slider from 'react-slick';
 import MovieChartImage from "./MovieChartImage";
+import { Link } from "react-router-dom"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -39,10 +40,13 @@ function MovieChart() {
         <div className={style.contents}>
             <div className={style.txt}>
                 <h2>무비차트</h2>
+                
+                <Link to={`${process.env.PUBLIC_URL}/movie`}>
                 <button>
                     <span>전체보기</span>
-                    <span>&gt;</span>
+                    <span>&gt;</span>                       
                 </button>
+                </Link>
             </div>
             
             <div className={style.chart}>
