@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import Header from "../components/Header"
 import Menu from "../components/Menu"
-import MovieChart from "../components/MainPage/MovieChart"
+import MovieChart from "../components/MainPage/MovieChart_main"
 import Movie from '../components/MainPage/Movie'
 
 function Home() {

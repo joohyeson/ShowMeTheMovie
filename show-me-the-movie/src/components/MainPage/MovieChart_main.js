@@ -1,6 +1,6 @@
-import style from "./MovieChart.module.css"
+import style from "./MovieChart_main.module.css"
 import Slider from 'react-slick';
-import MovieChartImage from "./MovieChartImage";
+import MovieChartImage from "./MovieChartImage_main";
 import { Link } from "react-router-dom"
 
 import "slick-carousel/slick/slick.css";

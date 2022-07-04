@@ -1,0 +1,40 @@
+.contents {
+    padding: 10px 26px 25px 55px;
+    margin: 0 24.5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px 20px;
+    place-items: center;
+}
+
+.image p{
+    background: #fb4357;
+        color: #ffffff;
+        font-size: 19px;
+        text-align: center;
+        line-height: 28px;
+        margin-bottom: 4px;
+        width: 197px;
+
+}
+
+.image img{
+    width: 197px;
+    height: 260px;
+}
+
+.image_info{
+    display: flex;
+}
+.image_info span{
+    font-size: 11px;
+    
+}
+
+.image_info img{
+    width:16px;
+    height: 26px;
+}

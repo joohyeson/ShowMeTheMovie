@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import style from './MovieChart.module.css'
+import style from './MovieChart_main.module.css'
 
 function MovieChartImage() {
     const [isHover, setIsHover] = useState(false);

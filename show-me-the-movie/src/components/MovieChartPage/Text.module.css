@@ -1,0 +1,28 @@
+.contents {
+    padding: 10px 26px 25px 55px;
+    margin: 0 24.5px;
+}
+
+.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #241d1e;
+}
+
+.txt input,
+    button,
+    select{
+    margin: 0 10px 0 0;
+}
+
+.txt button{
+        line-height: 23px;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid #7b7b7b;
+        color: #7b7b7b;
+        background-color: white;
+}
