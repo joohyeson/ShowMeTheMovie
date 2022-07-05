@@ -1,12 +1,19 @@
 import style from "./MovieChart.module.css"
+import {Link} from "react-router-dom"
 
 function MovieChartImage() {
     return (
         <div className={style.image}>
             <p>No.1</p>
-            <img src={'https://img.cgv.co.kr/Movie/Thumbnail/Poster/000082/82120/82120_320.jpg'} />
+            
+            <Link to={`${process.env.PUBLIC_URL}/movies/detail-view`}>
+                <img src={'https://img.cgv.co.kr/Movie/Thumbnail/Poster/000082/82120/82120_320.jpg'} />
+            </Link>
+
             <div >
+                <Link to={`${process.env.PUBLIC_URL}/movies/detail-view`}>
                 <strong>탑건-매버릭</strong>
+                </Link>
                 <div className={style.image_info}>
                     <div>
                         <span>예매율 44.9% |</span>

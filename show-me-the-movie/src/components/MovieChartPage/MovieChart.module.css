@@ -21,6 +21,11 @@
 
 }
 
+.image a{
+    text-decoration: none !important;
+    color: black;
+}
+
 .image img{
     width: 197px;
     height: 260px;

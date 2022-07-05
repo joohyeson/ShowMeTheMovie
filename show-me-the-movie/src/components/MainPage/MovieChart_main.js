@@ -41,7 +41,7 @@ function MovieChart() {
             <div className={style.txt}>
                 <h2>무비차트</h2>
                 
-                <Link to={`${process.env.PUBLIC_URL}/movie`}>
+                <Link to={`${process.env.PUBLIC_URL}/movies`}>
                 <button>
                     <span>전체보기</span>
                     <span>&gt;</span>                       

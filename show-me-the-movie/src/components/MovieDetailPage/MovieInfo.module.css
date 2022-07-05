@@ -1,0 +1,56 @@
+.contents {
+    padding: 10px 26px 25px 55px;
+    margin: 0 24.5px;
+}
+
+.movie_info{
+    display: flex;
+
+}
+
+.movie_info img{
+    width: 185px;
+    height: 260px;
+}
+
+.movie_info_txt img{
+    width: 19px;
+    height: 26px;
+}
+
+.movie_percent{
+    padding-bottom: 10px;
+    width: 765px;
+    border-bottom: 1px solid #d9d6c8;
+
+}
+.movie_percent strong{
+    color: #1a1919;
+        font-size: 25px;
+}
+
+.movie_percent p{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 0px;
+}
+
+.movie_percent span{
+    color: #1a1919;
+        font-size: 12px;
+}
+
+.movie_spec{
+    color: #1a1919;
+    font-size: 13px;
+    margin-top: 18px;
+
+}
+
+.movie_spec p{
+        font-weight: 500;
+            margin: 3px 0 0 0;
+            padding: 0;
+            border: 0;
+}
+
