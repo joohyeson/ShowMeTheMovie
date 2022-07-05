@@ -36,5 +36,13 @@
 
 .image_info img{
     width:16px;
-    height: 26px;
+    height: 20px;
+}
+
+.image button{
+    width: 97px !important;
+    height: 25px !important;
+    border: none;
+    margin-top: 5px;
+    background: url('https://img.cgv.co.kr/R2014/images/sprite/sprite_preegg.png') 0 -110px no-repeat !important;
 }

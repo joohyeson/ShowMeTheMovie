@@ -11,12 +11,15 @@ function MovieChartImage() {
                     <div>
                         <span>예매율 44.9% |</span>
                     </div>
-                    <img src={'https://img.cgv.co.kr/R2014/images/common/egg/eggGoldenegggreat.png'} />
                     <div>
-                        <span>99%</span>
+                    <img src={'https://img.cgv.co.kr/R2014/images/common/egg/eggGoldenegggreat.png'} />
+                    <span>99%</span>
                     </div>
                 </div>
-                <span style={{fontSize: "11px"}}>2022.06.22 개봉</span>
+                <span style={{ fontSize: "11px" }}>2022.06.22 개봉</span>
+                <div>
+                    <button/>
+                </div>
 
             </div>
             
