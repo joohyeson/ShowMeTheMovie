@@ -12,6 +12,9 @@
     height: 260px;
 }
 
+.movie_info_txt{
+    width: 100%;
+}
 .movie_info_txt img{
     width: 19px;
     height: 26px;

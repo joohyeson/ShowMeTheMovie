@@ -9,4 +9,15 @@
     gap: 0px 0px;
     place-items: center;
     border-top: 1px solid #aaa;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.grid li{
+        border-bottom: #d9d6c8 solid 1px;
+}
+
+.grid li:nth-child(odd) {
+        border-right: #d9d6c8 solid 1px;
 }
