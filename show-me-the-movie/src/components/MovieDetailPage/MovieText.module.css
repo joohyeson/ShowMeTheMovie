@@ -1,0 +1,11 @@
+.contents {
+    padding: 10px 26px 25px 55px;
+    margin: 0 24.5px;
+}
+
+.contents strong,
+            p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 2;
+}

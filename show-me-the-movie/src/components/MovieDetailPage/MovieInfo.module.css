@@ -5,7 +5,6 @@
 
 .movie_info{
     display: flex;
-
 }
 
 .movie_info img{
@@ -20,7 +19,7 @@
 
 .movie_percent{
     padding-bottom: 10px;
-    width: 765px;
+    width:100%;
     border-bottom: 1px solid #d9d6c8;
 
 }

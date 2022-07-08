@@ -1,0 +1,36 @@
+.contents {
+    padding: 10px 26px 25px 55px;
+    margin: 0 24.5px;
+}
+
+.contents ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.contents li{
+    width: 50% !important;
+    height: 261px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.contents li strong{
+    display: block;
+        height: 58px;
+        border-bottom: 1px solid #cccccc;
+        color: #4a4a4a;
+        text-align: center;
+        line-height: 58px;
+
+}
+
+.left_graph{
+    border-top: 1px solid #cccccc;
+}
+.right_graph{
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+}
