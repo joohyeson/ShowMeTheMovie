@@ -1,10 +1,13 @@
 import styles from './Header.module.css'
+import { Link } from "react-router-dom"
 
 function Category() {
     return (
         <div className={styles.contents}>
             <h1>
-                <img className={styles.main_logo} src={process.env.PUBLIC_URL + '/public_assets/logo_CGV.png'} />
+                <Link to={`${process.env.PUBLIC_URL}/`}>
+                    <img className={styles.main_logo} src={process.env.PUBLIC_URL + '/public_assets/logo_CGV.png'} />
+                </Link>
                 <span className={styles.logo_text}>CULTUREPLEX</span>
             </h1>
             {/*로그인이 안된 경우*/}

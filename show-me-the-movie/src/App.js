@@ -7,6 +7,7 @@ import Home from './routes/MainPage';
 import Detail from './routes/Detail';
 import MovieChartPage from './routes/MovieChartPage';
 import MovieDetailPage from './routes/MovieDetailPage';
+import TheaterPage from './routes/TheaterPage';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <Routes>
       <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
       <Route path={`${process.env.PUBLIC_URL}/movies`} element={<MovieChartPage />} />
-      <Route path={`${process.env.PUBLIC_URL}/movies/detail-view`} element={<MovieDetailPage/>}/>
+      <Route path={`${process.env.PUBLIC_URL}/movies/detail-view`} element={<MovieDetailPage />} />
+      <Route path={`${process.env.PUBLIC_URL}/movies/theaters`} element={<TheaterPage/>} />
       {/* <Route path="/movie/:id" element={<Detail/>}/> */}
     </Routes>
   </Router>);

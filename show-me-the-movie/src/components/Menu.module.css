@@ -22,6 +22,11 @@
     color: #222;
 }
 
+    a{
+    text-decoration: none;
+    color: #222;
+}
+
 img{
     width: 23px;
     height: 23px;
