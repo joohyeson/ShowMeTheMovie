@@ -3,6 +3,23 @@ ReactJS로 영화 웹 서비스 만들기
 
 https://joohyeson.github.io/ShowMeTheMovie/
 
+## 구현 목표
+
+
+|구현여부|페이지|요구사항|
+|------|---|---|
+|O|메인|페이징|
+|△|전체 영화 페이지(/movies)|정렬 기능 제공|
+|△|전체 영화 페이지(/movies)|검색 기능 제공|
+|△|영화 상세 페이지(/movies/detail-view)|통계 정보|
+|△|영화 상세 페이지(/movies/detail-view)|평점 및 후기|
+|x|예매|비회원인 경우 로그인 페이지로 redirect|
+|x|예매|이미 예약된 좌석 표시 및 좌석 선택|
+|x|MyPage|기본 정보와 예매내역 표시|
+|x|관리자 페이지|할인정책 입력|
+|x|관리자 페이지|예매시 할인정책 적용된 최종 가격 표시|
+
+
 ## Quick Overview
 
 ```sh
